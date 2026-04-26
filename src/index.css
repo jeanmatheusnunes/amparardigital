@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  /* Remap primary brand color (indigo) to pink */
+  --color-indigo-50: var(--color-pink-50);
+  --color-indigo-100: var(--color-pink-100);
+  --color-indigo-200: var(--color-pink-200);
+  --color-indigo-300: var(--color-pink-300);
+  --color-indigo-400: var(--color-pink-400);
+  --color-indigo-500: var(--color-pink-500);
+  --color-indigo-600: var(--color-pink-600);
+  --color-indigo-700: var(--color-pink-700);
+  --color-indigo-800: var(--color-pink-800);
+  --color-indigo-900: var(--color-pink-900);
+  --color-indigo-950: var(--color-pink-950);
+  
+  /* Remap secondary colors to pink/rose variants to keep the theme consistent */
+  --color-blue-50: var(--color-rose-50);
+  --color-blue-100: var(--color-rose-100);
+  --color-blue-200: var(--color-rose-200);
+  --color-blue-300: var(--color-rose-300);
+  --color-blue-400: var(--color-rose-400);
+  --color-blue-500: var(--color-rose-500);
+  --color-blue-600: var(--color-rose-600);
+  --color-blue-700: var(--color-rose-700);
+  --color-blue-800: var(--color-rose-800);
+  --color-blue-900: var(--color-rose-900);
+
+  --color-emerald-50: var(--color-fuchsia-50);
+  --color-emerald-100: var(--color-fuchsia-100);
+  --color-emerald-200: var(--color-fuchsia-200);
+  --color-emerald-300: var(--color-fuchsia-300);
+  --color-emerald-400: var(--color-fuchsia-400);
+  --color-emerald-500: var(--color-fuchsia-500);
+  --color-emerald-600: var(--color-fuchsia-600);
+  --color-emerald-700: var(--color-fuchsia-700);
+  --color-emerald-800: var(--color-fuchsia-800);
+  --color-emerald-900: var(--color-fuchsia-900);
+
+  --color-purple-50: var(--color-pink-50);
+  --color-purple-100: var(--color-pink-100);
+  --color-purple-200: var(--color-pink-200);
+  --color-purple-300: var(--color-pink-300);
+  --color-purple-400: var(--color-pink-400);
+  --color-purple-500: var(--color-pink-500);
+  --color-purple-600: var(--color-pink-600);
+  --color-purple-700: var(--color-pink-700);
+  --color-purple-800: var(--color-pink-800);
+  --color-purple-900: var(--color-pink-900);
+
+  --color-violet-600: var(--color-rose-600);
+  --color-violet-700: var(--color-rose-700);
+  
+  /* Keep amber for warnings but maybe make it a bit more "warm pink" or just leave it for usability */
+  /* --color-amber-50: var(--color-orange-50); */
+}
